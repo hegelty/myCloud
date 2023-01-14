@@ -1,0 +1,19 @@
+data.db
+
+user
+id, nickname, pw, email, size, grade
+
+shared_file
+id, owner, share_type, route, allowed, pw, expire, url, allowed_users
+
+shared_folder
+id, owner, share_type, route, allowed, pw, expire, url, allowed_users
+
+log
+log_type, id, time, detail
+
+setting
+name, value
+
+session
+id, user_id, expire_time
